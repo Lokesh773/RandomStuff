@@ -1,14 +1,13 @@
 All ROM Changelogs for mido:
 - Include MiuiCamera from Daisy
 - Rework Audio HAL
-- Add RTT mode on Carrier Config
 - Disable VT for specific operator 
 - Fix the flicker issue this time
 - Reimported Crosshatch EAS PowerHAL with Optimized Powerhint Thanks to @Nicklas373 & @Alvian29
 - Put msm_irqbalance on system_background
 - Set hvdcp_opti service as disabled 
-- Disable perf prop for now
-- Vulkan UI for default rendering and Improved SOT
+- Disable perfd prop for now
+- Disable Sched boost
 - Fix Dual SIM
 - Silence GMS Denials
 - Setprop vendor.gpu.available & Remove KPI marker at ADSP start. 
@@ -18,4 +17,7 @@ All ROM Changelogs for mido:
 - Update msm_irqbalance from sailfish-QP1A.191005.007
 - Switch to EAS Perf from Taimen-QQ2A.200501.001 
 = Update CarrierConfig from LA.UM.8.6.2.r1-07100-89xx.0
-- Etc
+- Using 3.18, Not gonna ship it until its stable af
+
+PS: write this debug.hwui.renderer=skiavk on vendor/build.prop and restart will improve Ux and SOT
+
