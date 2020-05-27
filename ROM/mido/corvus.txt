@@ -1,0 +1,14 @@
+Changelogs for 27-05-2020 Release:
+- Back to SnapCamera again
+- Improved EAS PowerHAL
+- Improved Wifi Speed
+- Improved CorvusParts
+- Back to OpenGL for Stability
+- Tuned ZRAM and VFS Performance
+- Fix locked frequency on stock kernel
+- Fix overheating while charging
+- Update Overlay from Daisy-QKQ1.191002
+- Update Alarm from Daisy-QKQ1.191002 
+- Update TimeService from Daisy-QKQ1.191002
+- Update Adreno & Vulkan from Taimen-RPP4.200409
+- Imported Touch Improvement prop (Known as Magisk module) 
