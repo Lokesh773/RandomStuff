@@ -1,14 +1,25 @@
-Changelogs for 27-05-2020 Release:
-- Back to SnapCamera again
-- Improved EAS PowerHAL
-- Improved Wifi Speed
-- Improved CorvusParts
-- Back to OpenGL for Stability
-- Tuned ZRAM and VFS Performance
-- Fix locked frequency on stock kernel
-- Fix overheating while charging
-- Update Overlay from Daisy-QKQ1.191002
-- Update Alarm from Daisy-QKQ1.191002 
-- Update TimeService from Daisy-QKQ1.191002
-- Update Adreno & Vulkan from Taimen-RPP4.200409
-- Imported Touch Improvement prop (Known as Magisk module) 
+Full Changelogs for 11-06-2020 Release:
+- Fully Supported With F2FS Flags
+- Fixed Always On Display
+- Fixed Proximity Sensors  
+- Fixed Call Recording 
+- Fixed Low Audio Incall
+- Address More denials
+- Shipped With 4.9 Perf Kernel
+- Configure Schedutil and SchedBoost
+- Reduce Serveral PowerHint Boost
+- Tweak GPS and make more accurate
+- Apply UFS Permission 
+- Apply more missing Permission to Ueventd
+- Apply Malloc Svelte Optimization
+- Apply Config for 2GB Variant devices 
+- Drop Deprecated custom display flags
+- Lowering ScreenRecording without anylags
+- Improved ZRAM Optimization (Set to 50% of RAM Size) 
+- Update Telephony from Vsmart-Casuarina/10-QKQ1.200311.002
+- Update Charger from Vsmart-Casuarina/10-QKQ1.200311.002
+- Update init.qcom.early_boot.sh from LA.UM.8.6.r1-02300-89xx.0
+- Update init.qcom.post_boot.sh from LA.UM.8.6.r1-02300-89xx.0
+- Update init.qcom.sh from LA.UM.8.6.r1-02300-89xx.0
+- Update Thermal Blobs and Configuration from Redmi 7 (Thanks to @Rama982 & @Nicklas373)
+
